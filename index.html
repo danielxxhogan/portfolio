@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-------------------------------
+    Author: Daniel Hogan
+    Date: 1/12/2021
+    --------------------------------->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="styles/styles.css" rel="stylesheet">
+    <title>Daniel Hogan</title>
+</head>
+<body>
+
+
+    <header>
+      <div id="photo-div">
+        <img id="me" src="images/headshot.jpeg" alt="" />
+      </div>
+      <div id="name">
+        <h2><strong>Hi</strong>, my name is</h2>
+        <h1><strong>Daniel Hogan</strong></h1>
+        <p id="intro">I am a Software Developer</p>
+        <a href="https://github.com/rando-mane" target="_blank"><i class="fab fa-github" style="font-size: 2rem; margin-right: 10px;"></i></a>
+        <a href="https://www.linkedin.com/in/daniel-hogan-52b7101b6/" target="_blank"><i class="fab fa-linkedin" style="font-size: 2rem;"></i></a>           
+      </div>
+    </header>
+
+    <section>
+        <h1><strong>Portfolio</strong></h1>
+
+        <hr style="height: 5px;"/>
+
+        <div class="portfolio-item">
+            <div class="portfolio-text">
+                <h2>Python Algo</h2>
+                <p>I built a Python algorithm that automates stock trading. It uses the Alpaca
+                   Broker Api to get information about stocks and place trades on behalf of my account.
+                </p>
+                <form action="https://github.com/rando-mane/adx-trend-reversal-stock-trading-algo" target="_blank">
+                    <button class="portfolio-btn"><div><i class="fab fa-github"></i> View on Github</div></button>
+                </form>
+            </div>
+            <img src="images/stock-chart.jpg" alt="" class="portfolio-image">
+        </div>
+
+        <hr style="height: 5px;"/>
+
+        <div class="portfolio-item">
+            <img src="images/CardCounterPRO.PNG" alt="" class="portfolio-image">
+
+            <div class="portfolio-text">
+                <h2>Card Counter PRO</h2>
+                <p>I built a Black Jack web game with features for counting cards. It keeps track of 
+                    the count and uses basic strategy to make strategic suggestions
+                    about how to play each hand.
+                </p>
+                <div style="display: flex; justify-content: center; gap: 20px">
+                    <form action="https://rando-mane.github.io/CardCounterPRO/" target="_blank">
+                        <button class="portfolio-btn"><div>View Site</div></button>
+                    </form>
+                    <form action="https://github.com/rando-mane/CardCounterPRO" target="_blank">
+                        <button class="portfolio-btn"><div><i class="fab fa-github"></i> View on Github</div></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr style="height: 5px; margin: 0;"/>
+
+    <footer>
+        <p>Copyright &copy; 2021 Daniel Hogan</p>
+    </footer>
+    
+</body>
+</html>
