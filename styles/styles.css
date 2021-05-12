@@ -27,8 +27,70 @@ h2 {
     font-weight: lighter;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
 p {
     font-size: 1.5rem;
+}
+
+
+ /* NAV
+************************************************************************/
+nav {
+  background-color: var(--dark-blue);
+  color: white;
+}
+
+nav ul {
+  margin-bottom: 0;
+  padding: 0.5rem 0 0.5rem 1rem;
+  padding-right: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 5rem;
+  
+}
+
+#portfolio-nav {
+  padding-top: 1rem;
+}
+
+#portfolio-nav a, #portfolio-nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#portfolio-nav a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+
+#resume-nav {
+  padding-top: 1rem;
+}
+
+#resume-nav a, #resume-nav a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#resume-nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#resume-nav {
+  background-color: var(--silver);
+  color: black;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#resume-nav ul {
+  margin-top: 0;
 }
 
  /* HEADER
@@ -155,6 +217,35 @@ section h1 {
 
 .portfolio-btn:hover {
     background-color: var(--hover-blue);
+}
+
+
+/* RESUME
+************************************************************************/
+#resume-page {
+  background-color: var(--silver);
+}
+
+#resume {
+  margin-left: 10%;
+  margin-bottom: 2%;
+  
+}
+
+#iframe-div {
+  text-align: center;
+}
+
+iframe {
+  width:50%;
+  height:1000px;
+  overflow:auto;
+}
+
+@media only screen and (max-width: 992px) {
+  iframe {
+    width: 100%;
+  }
 }
 
 /* FOOTER
