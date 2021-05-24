@@ -39,23 +39,51 @@
         <hr style="height: 5px;"/>
 
         <div class="portfolio-item">
+          <div class="portfolio-text">
+              <h2>Rando Trader</h2>
+              <p>Rando Trader is a full stack financial web app. The frontend dashboard is a React application.
+                The backend is an Express server hosted on Digital Ocean that serves up the app and acts as a 
+                backend api. When data from the database is requested, the server sends a request to the database
+                api hosted on ec2 which queries the Postgres db hosted on RDS. The database is regularly updated
+                by a series of python microservices that use api requests and web scraping. When
+                a ticker is searched for on the search page, a request is sent by the server to a python api hosted
+                on ec2 that uses api requests and web scraping to collect data on that ticker.
+              </p>
+              <div style="display: flex; justify-content: center; gap: 20px">
+                <form action="https://randotrader.com" target="_blank">
+                    <button class="portfolio-btn"><div>View Site</div></button>
+                </form>
+                <form action="https://github.com/rando-mane/rando-trader" target="_blank">
+                  <button class="portfolio-btn"><div><i class="fab fa-github"></i> View on Github</div></button>
+              </form>
+            </div>
+          </div>
+
+          <img src="images/randotrader.png" alt="" class="portfolio-image">
+        </div>
+
+        <hr style="height: 5px;"/>
+
+        <div class="portfolio-item">
           <img src="images/Schieffers-Keezers.jpg" alt="" class="portfolio-image">
 
-            <div class="portfolio-text">
-                <h2>Schieffers Keezers</h2>
-                <p>I built a full stack web application for Schieffers Keezers, a business a friend of mine is
-                  starting. It is an ecommerce website with a React frontend, a Node backend, and a Postgres
-                  database.
-                </p>
-                <div style="display: flex; justify-content: center; gap: 20px">
-                  <form action="https://schieffers-keezers.com" target="_blank">
-                      <button class="portfolio-btn"><div>View Site</div></button>
-                  </form>
-                  <form action="https://github.com/rando-mane/Schieffers-Keezers" target="_blank">
-                    <button class="portfolio-btn"><div><i class="fab fa-github"></i> View on Github</div></button>
+          <div class="portfolio-text">
+              <h2>Schieffers Keezers</h2>
+              <p>Schieffers Keezers is a full stack ecommerce web app. It has a React frontend, a Node.js
+                backend, and connects to a Postgres database. It has user login/registration, uses JWT tokens
+                to authenticate requsts, displays all products from the database, and allows users to add
+                products to their cart. As long as the user has a valid address on file and a freezer and
+                tapkit in their cart, they are allowed to checkout.
+              </p>
+              <div style="display: flex; justify-content: center; gap: 20px">
+                <form action="https://schieffers-keezers.com" target="_blank">
+                    <button class="portfolio-btn"><div>View Site</div></button>
                 </form>
-              </div>
+                <form action="https://github.com/rando-mane/Schieffers-Keezers" target="_blank">
+                  <button class="portfolio-btn"><div><i class="fab fa-github"></i> View on Github</div></button>
+              </form>
             </div>
+          </div>
         </div>
 
         <hr style="height: 5px;"/>
