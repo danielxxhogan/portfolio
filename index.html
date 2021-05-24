@@ -45,7 +45,7 @@
                 The backend is an Express server hosted on Digital Ocean that serves up the app and acts as a 
                 backend api. When data from the database is requested, the server sends a request to the database
                 api hosted on ec2 which queries the Postgres db hosted on RDS. The database is regularly updated
-                by a series of python microservices that use api requests and web scraping. When
+                by a series of python microservices that use api requests and web scraping scheduled using cronjob. When
                 a ticker is searched for on the search page, a request is sent by the server to a python api hosted
                 on ec2 that uses api requests and web scraping to collect data on that ticker.
               </p>
