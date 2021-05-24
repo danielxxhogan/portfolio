@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Main Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rando-mane/portfolio.git"
+  },
+  "author": "Daniel Hogan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rando-mane/portfolio/issues"
+  },
+  "homepage": "https://rando-mane.github.io/portfolio",
+  "dependencies": {
+    "gh-pages": "^3.2.0"
+  }
+}
